@@ -1,0 +1,56 @@
+body {
+    font-family: 'Raleway', serif;
+}
+
+/*********HEADER*********/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow:hidden;
+    position:fixed;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    padding-top: 22px;
+}
+nav img {
+    margin-left: 26px;
+}
+
+.phone_number {
+    font-weight: 700;
+}
+
+header ul {
+    position: relative;
+    top: -8px;
+    margin-right: 51px;
+}
+
+header li{
+    display: inline;
+    letter-spacing: 0px;
+    color: #0B1840;
+    opacity: 1;
+    font-size: 18px;
+    margin: 0 2rem;
+}
+
+header li img {
+    width: 22px;
+    position: absolute;
+    top: -2px;
+    right: 9rem;
+}
+
+/*********SLIDER*********/
+.image1 {
+    width: 95%;
+    margin: 102px 26px;
+    background-image: url(.image1.jpg);
+    height: 83vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
